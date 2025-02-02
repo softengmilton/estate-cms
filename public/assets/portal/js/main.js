@@ -302,11 +302,12 @@
       })
   }}
 
-  var sticky = function () {
-    if ($('div').hasClass('sticky-container')) {
-      var sticky = new Sticky('.po-sticky');
-    }
-  }
+  // var sticky = function () {
+  //   if ($('div').hasClass('sticky-container')) {
+  //     var sticky = new Sticky('.po-sticky');
+  //   }
+  // }
+  
 
   var email = function () {
     if ($('fieldset').hasClass('email')) {
@@ -375,7 +376,7 @@
     headerFixed();
     dashboard();
     gotop();
-    sticky();
+    // sticky();
     email();
     dropOptionForm();
     preloader();
